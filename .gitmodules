@@ -1,3 +1,7 @@
 [submodule "P1"]
 	path = P1
 	url = https://github.com/yycho0108/U_ML_P1.git
+[submodule "P2"]
+	path = P2
+	url = https://github.com/yycho0108/U_ML_P2.git
+	branch = master
