@@ -1,0 +1,8 @@
+#results/logging
+*.txt
+*.png
+*.pdf
+
+#swap files
+*~
+.*~

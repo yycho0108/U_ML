@@ -1,0 +1,28 @@
+---
+title: Udacity Machine-Learning Nanodegree 
+description: Smarter Computers
+layout: default
+projects:
+ - title: Boston Housing
+   link: U_ML_P1
+   description: Introductory Course, with emphasis on observing the structure behind the data with algorithms such as KNN and GMM.
+
+ - title: Student Intervention System
+   link: U_ML_P2
+   description: Unsupervised Learning to develop a student intervention system based on a collection of data samples associated with their success. Emphasis on prediction via clustering, highlighting the similarities in the data.
+
+ - title: Creating Customer Segments
+   link: U_ML_P3
+   description: Continuation of Unsupervised Learning, with emphasis on statistics and data preprocessing with feature transformation to identify the relevant features for categorization.
+
+ - title: Training a SmartCab
+   link: U_ML_P4
+   description: Reinforced Learning (Q-Learning) with basic Q-Table Implementation to train an autonomous cab undergoing simulated traffic.
+---
+<p>Udacity Machine-Learning Nanodegree Course.</p></br>
+	{% for project in page.projects %}
+		<div>
+			<a href={{ project.link }} class="button">{{ project.title }}</a></br>
+			<p> {{project.description }} </p></br>
+		</div>
+	{% endfor %}
