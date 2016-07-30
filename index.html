@@ -22,7 +22,7 @@ projects:
 <p>Udacity Machine-Learning Nanodegree Course.</p></br>
 	{% for project in page.projects %}
 		<div>
-			<a href={{ project.link }} class="button">{{ project.title }}</a></br>
+			<a href={{ project.link | prepend:site.url}} class="button">{{ project.title }}</a></br>
 			<p> {{project.description }} </p></br>
 		</div>
 	{% endfor %}
